@@ -53,13 +53,13 @@ html, body {
 .person-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     color: white;
     font-weight: normal;
 }
 
 .person-name-large {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .content-section {
