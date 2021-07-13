@@ -1,109 +1,197 @@
 <DOCTYPE html>
+
 <html>
+
     <head>
-        <title>
-            Aditya Patel | Home
-        </title>
-        <meta name="description" content="Welcome to Aditya's site! An aspiring Software/Web Developer.">
-        <link rel="stylesheet" href="styles.css" />
+
+        <title>Aditya Patel</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&amp;family=Russo+One&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+
     </head>
+
     <body>
-        <header class="main-header">
-            <nav class="nav main-nav">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-            <h3 class="person-name person-name-large">Aditya Patel</h3>
-            <div class="container">
-                <button type="button" class="btn btn-header"><a href="meta/Resume.pdf" target="_blank">View Resume</a></button>
-            </div>
+
+        <header>
+
+            <section class="s1">
+                <div class="main-contianer">
+                    <div class="heading-wrapper">
+                        <h1>Hi! I am Aditya Patel</h1>
+                    </div>
+
+                    <div class="intro-wrapper">
+                        <div class="nav-wrapper">
+                            <div class="dots-wrapper">
+                                <div id="dot-1" class="browser-dot"></div>
+                                <div id="dot-2" class="browser-dot"></div>
+                                <div id="dot-3" class="browser-dot"></div>
+                            </div>
+                            <ul id="navigation">
+                                <li>
+                                    <a href="meta/Resume.pdf" target="_blank">
+                                        View Resume
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="left-column">
+                            <img id="profile_pic" src="meta/IMG1.jpg">
+                        </div>
+
+                        <div class="right-column">
+                            <div id="preview-shadow">
+                                <div id="preview">
+                                    <div id="corner-tl" class="corner"></div>
+                                    <div id="corner-tr" class="corner"></div>
+                                    <h3>Who am I?</h3>
+                                    <p>I am a student by day, a coder by night. I aspire to become a Software/Web Developer.</p>
+                                    <div id="corner-br" class="corner"></div>
+                                    <div id="corner-bl" class="corner"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="s2">
+                <div class="main-contianer">
+                    <div class="about-wrapper">
+                        <div class="about-me">
+                            <h4>More about me</h4>
+                            <p>
+                                I build new projects just to tickle my brain and learn new things. 
+                            </p>
+                            <p>
+                                I started with pyhon and now I can code in 4-5 different languges with varying degree of proficiency and I am constantly trying to improve and grow as a software developer.
+                            </p>
+
+                            <hr>
+
+                            <h4>SKILLS</h4>
+                            
+                            <p>
+                                <a href="meta/Resume.pdf" target="_blank">
+                                    View Detailed Resume
+                                </a>
+                            </p>
+
+                            <div id="skills">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>C/C++</li>
+                                    <li>JavaScript</li>
+                                </ul>
+
+                                <ul>
+                                    <li>SQL</li>
+                                    <li>Git</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <h4 class="social-head">My Socials</h4>
+                        <div id="social-links">
+                            <ul><li><a href="https://github.com/AdinotAadi" target="_blank">Github</a></li></ul>
+
+                            <ul><li><a href="https://linkedin.com/in/pateladitya1" target="_blank">LinkedIn</a></li></ul>
+
+                            <ul><li><a href="https://twitter.com/@AdinotAadi" target="_blank">Twitter</a></li></ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="s1">
+                <div class="main-contianer">
+                    <h3 style="text-align: center;">Some of my past projects</h3>
+                    <div class="post-wrapper">
+
+                        <div>
+                            <div class="post">
+                                <img class="thumbnail" src="meta/IMG4.jpeg">
+                                <div class="post-preview">
+                                    <h6 class="post-title">YouTube Clone</h6>
+                                    <p class="post-intro">A YouTube Clone made using HTML and CSS only.</p>
+                                    <a href="https://github.com/AdinotAadi/YouTube-Clone" type="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="post">
+                                <img class="thumbnail" src="meta/IMG3.png">
+                                <div class="post-preview">
+                                    <h6 class="post-title">QR Code Generator</h6>
+                                    <p class="post-intro">A code in python to generate QR Codes for any text based, be it a link, or a message, make a QR code in seconds!</p>
+                                    <a href="https://github.com/AdinotAadi/PyhtonQRCodeGenerator" type="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="post">
+                                <img class="thumbnail" src="meta/IMG7.png">
+                                <div class="post-preview">
+                                    <h6 class="post-title">Python OCR</h6>
+                                    <p class="post-intro">A Python program to extract text from images.</p>
+                                    <a href="https://github.com/AdinotAadi/Python-OCR" type="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="s2">
+                <div class="main-contianer">
+                    <a href=""></a>
+			<h3 style="text-align: center;">Get In Touch</h3>
+
+			<form id="contact-form" action="https://formsubmit.co/patel.aditya1@outlook.com" method="POST">
+				<a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email" required>
+
+                <input type="hidden" name="_next" value="thanks.html">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<button id="submit-btn" type="submit" value="Send">Send</button>
+			</form>
+                </div>
+            </section>
+
         </header>
-        <section class="content-section container">
-            <h2 class="section-header">PORTFOLIO</h2>
-            <div>
 
-                <div class="portfolio-row">
-                    <h2><strong class="portfolio-item portfolio-heading">SKILLS</strong></h2>
-                    <div>
-                        <span>
-                            Python, C/C++, Java, SQL, HTML/CSS, JavaScript
-                        </span>
-                    </div>                    
-                </div>
-
-                <div class="portfolio-row">
-                    <h2><strong class="portfolio-item portfolio-heading">WORK EXPERIENCE</strong></h2>
-                    <div>
-                        <strong>Work Experience 1</strong>
-                        <br>
-                        <span>
-                            Place of Work 1, Duration of work 1
-                        </span>
-                        <br>
-                        <br>
-                        <strong>Work Experience 2</strong>
-                        <br>
-                        <span>
-                            Place of Work 2, Duration of work 2
-                        </span>
-                    </div>                    
-                </div>
-
-                <div class="portfolio-row">
-                    <h2><strong class="portfolio-item portfolio-heading">Projects</strong></h2>
-                    <div>
-                        <strong>Project 1</strong>
-                        <br>
-                        <span>
-                            <!--Insert Link Here-->Project Link 1, Date/Month of project 1
-                        </span>
-                        <br>
-                        <br>
-                        <strong>GUI Based File Data Encryptor & Decryptor</strong>
-                        <br>
-                        <span>
-                            <button class="link-button-primary">
-                                <a href="https://tinyurl.com/GUIFileEncryptorAndDecryptor">View</a>
-                            </button> June 2021
-                        </span>
-                        <br>
-                        <br>
-                        <strong>Python QR Code Generator</strong>
-                        <br>
-                        <span>
-                            <button class="link-button-primary">
-                                <a href="https://tinyurl.com/PythonQRGen">View</a>
-                            </button> June 2021
-                        </span>
-                    </div>                    
-                </div>
-
-            </div>
-        </section>
-        <footer class="main-footer">
-            <div class="container main-footer-container">
-                <h6 class="person-name">Aditya Patel</h6>
-                <ul class="nav footer-nav">
-                    <li>
-                        <a href="https://github.com/github.com/AdinotAadi" target="_blank">
-                            <img src="meta/IMG-GIT.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/pateladitya1" target="_blank">
-                            <img src="meta/IMG-LNKDN.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/@AdinotAadi" target="_blank">
-                            <img src="meta/IMG-TWTTR.png">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
     </body>
+
 </html>
